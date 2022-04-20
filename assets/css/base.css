@@ -1,0 +1,38 @@
+:root {
+ --white-color: #fff;
+ --black-color: #000;
+ --text-color: #333;
+ --yellow-color: #f78027;
+}
+
+* {
+ box-sizing: inherit;
+}
+
+html {
+ font-size:  62.5%;
+ line-height: 2rem;
+ font-family: 'Poppins', sans-serif;
+ box-sizing: border-box;
+}
+
+
+/* Button */
+.btn {
+ min-width: 67px;
+ height: 35px;
+ text-decoration: none;
+ border: none;
+ background-color: var(--yellow-color);
+ border-radius: 2px;
+ font-size: 1.35rem;
+ padding: 0;
+ outline: none;
+ cursor: pointer;
+ color: var(--white-color);
+ display: inline-block;
+ line-height: 35px;
+ align-items: center;
+ justify-content: center;
+ line-height: 1.6rem;
+}

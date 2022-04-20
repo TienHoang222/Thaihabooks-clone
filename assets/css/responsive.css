@@ -1,0 +1,161 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+ .nav__item {
+  display: none;
+ }
+ .product__item-price {
+  padding-top: 10px;
+ }
+ .product__item-add-to-cart, .product__item-buy {
+  padding: 2px 2px;
+ }
+ .footer__list {
+  padding-left: 0;
+ }
+}
+
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+ .banner__search-input {
+  margin-left: 20px;
+ }
+ .header__cart-notice {
+  right: 2px;
+ }
+ .slider__img-1 {
+  width: 420px ;
+  padding-top: 245px;
+ }
+ .slider__img-2 {
+  width: 210px;
+  padding-top: 114px;
+ }
+ .slider__img-3 {
+  width: 210px;
+  padding-top: 114px;
+ }
+ .banner__search-input {
+ width: 300px;
+ padding-left: 0;
+ }
+ .banner__search {
+  padding: 0;
+ }
+ .product__item-name {
+  font-size: 1.3rem;
+ }
+ .product__item-select {
+  font-size: 1rem;
+ }
+}
+
+
+
+
+/* Mobile */
+@media (max-width: 739px) {
+ .header__navbar-title {
+  display: none;
+ }
+ .header__navbar {
+  display: unset;
+ }
+ .banner__logo {
+  padding-left: 5px;
+ }
+ .header__navbar-list {
+  text-align: right;
+ }
+ .banner__search {
+  display: none;
+ }
+ .header__cart-notice {
+  right: 42px;
+ }
+ .nav__item-heading {
+  width: 100%;
+  text-align: center;
+ }
+ .slider__img-1 {
+  background-size: contain;
+  width: 100%;
+  padding-top: 195px;
+ }
+ .slider__img-2 {
+  /* background-size: contain; */
+  margin-top: 16px;
+  width: 100%;
+  padding-top: 160px;
+ }
+ .slider__img-3 {
+  /* background-size: contain; */
+  width: 100%;
+  padding-top: 160px;
+ }
+ .product__nav-item {
+  font-size: 1.18rem;
+  padding: 5px 5px;
+  margin-right: unset;
+}
+ .product__item {
+ }
+ .product__item-name {
+  font-size: 1.3rem;
+  font-weight: 550;
+ }
+ .product__item-img {
+  width: 100%;
+ }
+ 
+ .category__list {
+  padding: 0 0 0 0;
+ }
+ .product__item-select {
+  font-size: 1rem;
+ }
+
+}
+
+
+
+/* > PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+ .banner__search {
+  padding-left: 50px;
+  padding-right: 10px;
+ }
+ .slider__img-1 {
+  width: 635px ;
+  padding-top: 336px;
+ }
+ .slider__img-2 {
+  width: 290px;
+  padding-top: 160px;
+ }
+ .slider__img-3 {
+  width: 290px;
+  padding-top: 160px;
+ }
+ .product__item-img {
+  width: 164px;
+ }
+ .product__item-name {
+  font-size: 1.25rem;
+ }
+ .product__item-price {
+  padding-top: 10px;
+ }
+ .product__item-select {
+  font-size: 1rem;
+ }
+ .footer__heading {
+  font-size: 1.3rem;
+ }
+ .footer__logo {
+  padding-top: 82px;
+  width: 290px;
+ }
+}
